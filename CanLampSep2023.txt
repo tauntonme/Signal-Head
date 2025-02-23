@@ -1,0 +1,122 @@
+Configuration	CanLampSep2023
+STM32CubeMX 	6.12.0
+Date	09/17/2024
+MCU	STM32L432KCUx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN11 Single-ended	ADC1_IN11	PA6
+ADC1	IN12 Single-ended	ADC1_IN12	PA7
+CAN1	Activated	CAN1_RX	PA11
+CAN1	Activated	CAN1_TX	PA12
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	BYPASS Clock Source	RCC_CK_IN	PA0
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14 (JTCK-SWCLK)
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13 (JTMS-SWDIO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM1	PWM Generation CH2	TIM1_CH2	PA9
+TIM1	PWM Generation CH3	TIM1_CH3	PA10
+TIM2	PWM Generation CH1	TIM2_CH1	PA5
+TIM2	PWM Generation CH2	TIM2_CH2	PA1
+USART2	Asynchronous	USART2_RX	PA15 (JTDI)
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+3	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+6	PA0	RCC_CK_IN	MCO [High speed clock in]
+7	PA1	TIM2_CH2	
+8	PA2	USART2_TX	VCP_Tx
+11	PA5	TIM2_CH1	
+12	PA6	ADC1_IN11	
+13	PA7	ADC1_IN12	
+19	PA9	TIM1_CH2	
+20	PA10	TIM1_CH3	
+21	PA11	CAN1_RX	
+22	PA12	CAN1_TX	
+23	PA13 (JTMS-SWDIO)	SYS_JTMS-SWDIO	SWDIO
+24	PA14 (JTCK-SWCLK)	SYS_JTCK-SWCLK	SWCLK
+25	PA15 (JTDI)	USART2_RX	VCP_Rx
+26	PB3 (JTDO-TRACESWO)	GPIO_Output	LD3 [Green]
+29	PB6	I2C1_SCL	
+30	PB7	I2C1_SDA	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN11 Single-ended	ADC1_IN11	PA6
+ADC1	IN12 Single-ended	ADC1_IN12	PA7
+CAN1	Activated	CAN1_RX	PA11
+CAN1	Activated	CAN1_TX	PA12
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	BYPASS Clock Source	RCC_CK_IN	PA0
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN (PC14)
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT (PC15)
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14 (JTCK-SWCLK)
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13 (JTMS-SWDIO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM1	PWM Generation CH2	TIM1_CH2	PA9
+TIM1	PWM Generation CH3	TIM1_CH3	PA10
+TIM2	PWM Generation CH1	TIM2_CH1	PA5
+TIM2	PWM Generation CH2	TIM2_CH2	PA1
+USART2	Asynchronous	USART2_RX	PA15 (JTDI)
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC14-OSC32_IN (PC14)	RCC_OSC32_IN	
+3	PC15-OSC32_OUT (PC15)	RCC_OSC32_OUT	
+6	PA0	RCC_CK_IN	MCO [High speed clock in]
+7	PA1	TIM2_CH2	
+8	PA2	USART2_TX	VCP_Tx
+11	PA5	TIM2_CH1	
+12	PA6	ADC1_IN11	
+13	PA7	ADC1_IN12	
+19	PA9	TIM1_CH2	
+20	PA10	TIM1_CH3	
+21	PA11	CAN1_RX	
+22	PA12	CAN1_TX	
+23	PA13 (JTMS-SWDIO)	SYS_JTMS-SWDIO	SWDIO
+24	PA14 (JTCK-SWCLK)	SYS_JTCK-SWCLK	SWCLK
+25	PA15 (JTDI)	USART2_RX	VCP_Rx
+26	PB3 (JTDO-TRACESWO)	GPIO_Output	LD3 [Green]
+29	PB6	I2C1_SCL	
+30	PB7	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : CanLampSep2023
+Project Folder : C:\Users\jon34\STM32CubeIDE\workspace_1.11.2\CanLampSep2023
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_L4 V1.18.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
